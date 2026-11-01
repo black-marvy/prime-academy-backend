@@ -4,7 +4,7 @@ const router = require("./router/router");
 const postreg = require("./controller/DatabaseController");
 
 const app = express();
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({origin: "https://prime-education-academy.vercel.app" }));
 
 app.use(
   express.json({
